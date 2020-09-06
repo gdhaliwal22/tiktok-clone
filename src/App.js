@@ -2,6 +2,7 @@ import React from "react";
 
 import "./App.css";
 import Video from "./components/Video";
+import VideoFooter from "./components/VideoFooter";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Video />
         <Video />
       </div>
+
       {/* app container */}
       {/* videos */}
     </div>

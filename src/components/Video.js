@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import "../css/Video.css";
+import VideoFooter from "../components/VideoFooter";
+import VideoSidebar from "../components/VideoSidebar";
 
 function Video() {
   const [playing, setPlaying] = useState(false);
@@ -24,8 +26,9 @@ function Video() {
         className="video__player"
         loop
         ref={videoRef}
-        src="https://v16m.tiktokcdn.com/6ac76a66d80bc101bfe5e2bdd99a7f6b/5f559229/video/tos/useast2a/tos-useast2a-ve-0068c004/09d654183c3647549344148c1a473d0e/?a=1233&br=4802&bt=2401&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=2020090619512001018907107042113406&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=M2x1NmVldnN4djMzaTczM0ApZGRpOzUzN2Q3Nzs3Mzc8OmdrNWAvNGlxZ2JfLS02MTZzc2MxLTUyMC4tMDM2YzNhMi06Yw%3D%3D&vl=&vr="
+        src="https://v16m.tiktokcdn.com/a488961a7976347aa4d31f34c3e55029/5f559b26/video/tos/useast2a/tos-useast2a-ve-0068c002/ccbce55191974c2785cc5a5802a4aa3e/?a=1233&br=2028&bt=1014&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=202009062029480101901861421F1262F5&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=anY1dnU6bjhmczMzMzczM0ApZDk4Njc5Zjw6NzloNztmM2drYG40X2VfcmtfLS0wMTZzczRfNC9eXjYyNDYvMy80LS86Yw%3D%3D&vl=&vr="
       ></video>
+      <VideoFooter />
     </div>
   );
 }
