@@ -1,8 +1,6 @@
 import React from "react";
-
 import "./App.css";
 import Video from "./components/Video";
-import VideoFooter from "./components/VideoFooter";
 
 function App() {
   return (
