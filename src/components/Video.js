@@ -26,7 +26,7 @@ function Video() {
         className="video__player"
         loop
         ref={videoRef}
-        src="https://v16m.tiktokcdn.com/a488961a7976347aa4d31f34c3e55029/5f559b26/video/tos/useast2a/tos-useast2a-ve-0068c002/ccbce55191974c2785cc5a5802a4aa3e/?a=1233&br=2028&bt=1014&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=202009062029480101901861421F1262F5&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=anY1dnU6bjhmczMzMzczM0ApZDk4Njc5Zjw6NzloNztmM2drYG40X2VfcmtfLS0wMTZzczRfNC9eXjYyNDYvMy80LS86Yw%3D%3D&vl=&vr="
+        src="https://v77.tiktokcdn.com/6490b3ea84789a1a7ba7079c63aadc57/5f56c3ba/video/tos/useast2a/tos-useast2a-ve-0068c004/2362532506c24a66be8a02a69273732d/?a=1233&br=2652&bt=1326&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=20200907173510010190192131040E02D0&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=M2tmOHM1Ojc6dTMzMzczM0ApZDpnZmVmM2QzNzM3OmVmaWdeYm1nLjE0bWlfLS1iMTZzczIuNTZeYDNgNTM2XmFhMDU6Yw%3D%3D&vl=&vr="
       ></video>
       <VideoFooter />
     </div>
